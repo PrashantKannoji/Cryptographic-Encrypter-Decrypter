@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="caesar.css">
+</head>
+
+<body>
+
+ 
+    <header>CAESAR CIPHER</header>
+
+    <div>
+        <nav id="menu1">
+            <ul class="menu2">
+                <li><a href="index.html">HOME</a></li>
+            </ul>
+            <ul class="menu2">
+                <li><a href="https://en.wikipedia.org/wiki/Cryptography">CRYPTOGRAPHY</a></li>
+            </ul>
+            <ul class="menu2">
+                <li class="wiki"><a href="https://en.wikipedia.org/wiki/Caesar_cipher">CAESAR CIPHER</a></li>
+            </ul>
+            <ul class="menu2">
+                <li class="wiki"><a href="https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher">VIGENERE CIPHER</a></li>
+            </ul>
+        </nav>>
+    </div>
+    <div id="container-1">
+
+        <img src="https://render.fineartamerica.com/images/rendered/search/poster/5/8/break/images/artworkimages/medium/1/gaius-julius-caesar-02-andrea-mazzocchetti.jpg"
+            alt=" julius caesar">
+        <div class="inputpk">
+            <input id="pt" class="input" style="text-transform: uppercase" type="text"
+                placeholder=" ENTER THE PLAIN TEXT ">
+            <br><br>
+            <input id=key class="input" style="text-transform: uppercase" type="text" placeholder=" ENTER THE KEY ">
+        </div>
+        <div class="but">
+            <button id="encrypt"> ENCRYPT </button>
+            <button id="decrypt"> DECRYPT </button>
+        </div>
+
+        <br>
+        <label for="container-2">
+            <textarea name="cryptotext" id="cryptotext" cols="35" rows="15"
+                placeholder="ALTERED TEXT APPEARS HERE ......"></textarea>
+        </label>
+    </div>
+
+    <BR>
+<br>
+   <script src="caesar.js"></script>
+</body>
+
+</html>
